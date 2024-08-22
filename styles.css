@@ -1,115 +1,115 @@
 body {
-    font-family: Arial, sans-serif;
+    font-family: Arial, sans-serif; /* Define a fonte padrão */
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
-    background-color: #f4f4f4;
+    box-sizing: border-box; /* Garante que o padding e border sejam incluídos nas dimensões totais */
+    background-color: #f4f4f4; /* Define a cor de fundo da página */
 }
 
 header {
-    background-color: #333;
-    color: rgb(255, 255, 255);
-    padding: 1rem;
+    background-color: #333; /* Cor de fundo do cabeçalho */
+    color: rgb(255, 255, 255); /* Cor do texto do cabeçalho */
+    padding: 1rem; /* Espaçamento interno do cabeçalho */
 }
 
 nav ul {
-    list-style: none;
-    padding: 0;
-    display: flex;
-    justify-content: space-around;
+    list-style: none; /* Remove os marcadores da lista */
+    padding: 0; /* Remove o padding padrão */
+    display: flex; /* Exibe os itens da lista em linha */
+    justify-content: space-around; /* Distribui os itens uniformemente */
 }
 
 nav ul li {
-    margin-right: 1rem;
+    margin-right: 1rem; /* Espaçamento entre os itens da lista */
 }
 
 nav ul li a {
-    color: white;
-    text-decoration: none;
+    color: white; /* Cor do texto dos links */
+    text-decoration: none; /* Remove a sublinha dos links */
 }
 
 main {
-    padding: 2rem;
+    padding: 2rem; /* Espaçamento interno do conteúdo principal */
 }
 
 .intro {
-    text-align: center;
-    margin-bottom: 2rem;
+    text-align: center; /* Centraliza o texto */
+    margin-bottom: 2rem; /* Espaçamento inferior */
 }
 
 .links {
-    display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
+    display: flex; /* Exibe os itens em linha */
+    justify-content: space-around; /* Distribui os itens uniformemente */
+    flex-wrap: wrap; /* Permite que os itens quebrem linha se necessário */
 }
 
 .link-box {
-    background-color: #ffffff;
-    border: 1px solid #030000;
-    border-radius: 8px;
-    padding: 1rem;
-    margin: 1rem;
-    width: 200px;
-    text-align: center;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    transition: transform 0.3s, box-shadow 0.3s;
+    background-color: #ffffff; /* Cor de fundo das caixas de link */
+    border: 1px solid #030000; /* Borda das caixas de link */
+    border-radius: 8px; /* Arredonda os cantos das caixas */
+    padding: 1rem; /* Espaçamento interno das caixas */
+    margin: 1rem; /* Espaçamento externo das caixas */
+    width: 200px; /* Largura fixa das caixas */
+    text-align: center; /* Centraliza o texto dentro das caixas */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Sombra das caixas */
+    transition: transform 0.3s, box-shadow 0.3s; /* Transição suave para transformações e sombras */
 }
 
 .link-box a {
-    text-decoration: none;
-    color: #333;
-    font-weight: bold;
+    text-decoration: none; /* Remove a sublinha dos links */
+    color: #333; /* Cor do texto dos links */
+    font-weight: bold; /* Deixa o texto em negrito */
 }
 
 .link-box:hover {
-    transform: translateY(-5px);
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transform: translateY(-5px); /* Move a caixa para cima ao passar o mouse */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Aumenta a sombra ao passar o mouse */
 }
 
 footer {
-    background-color: #333;
-    color: white;
-    text-align: center;
-    padding: 1rem;
-    position: fixed;
-    width: 100%;
-    bottom: 0;
+    background-color: #333; /* Cor de fundo do rodapé */
+    color: white; /* Cor do texto do rodapé */
+    text-align: center; /* Centraliza o texto */
+    padding: 1rem; /* Espaçamento interno do rodapé */
+    position: fixed; /* Fixa o rodapé na parte inferior da página */
+    width: 100%; /* Largura total do rodapé */
+    bottom: 0; /* Posiciona o rodapé na parte inferior */
 }
 
 form {
-    display: flex;
-    flex-direction: column;
-    max-width: 600px;
-    margin: 0 auto;
-    padding: 1rem;
-    background-color: #fff;
-    border: 1px solid #ddd;
-    border-radius: 8px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    display: flex; /* Exibe os itens em coluna */
+    flex-direction: column; /* Define a direção dos itens */
+    max-width: 600px; /* Largura máxima do formulário */
+    margin: 0 auto; /* Centraliza o formulário horizontalmente */
+    padding: 1rem; /* Espaçamento interno do formulário */
+    background-color: #fff; /* Cor de fundo do formulário */
+    border: 1px solid #ddd; /* Borda do formulário */
+    border-radius: 8px; /* Arredonda os cantos do formulário */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Sombra do formulário */
 }
 
 form label {
-    margin-bottom: 0.5rem;
-    font-weight: bold;
+    margin-bottom: 0.5rem; /* Espaçamento inferior dos rótulos */
+    font-weight: bold; /* Deixa o texto em negrito */
 }
 
 form input, form textarea {
-    margin-bottom: 1rem;
-    padding: 0.5rem;
-    border: 1px solid #ddd;
-    border-radius: 4px;
+    margin-bottom: 1rem; /* Espaçamento inferior dos campos de entrada */
+    padding: 0.5rem; /* Espaçamento interno dos campos de entrada */
+    border: 1px solid #ddd; /* Borda dos campos de entrada */
+    border-radius: 4px; /* Arredonda os cantos dos campos de entrada */
 }
 
 form button {
-    padding: 0.5rem;
-    background-color: #333;
-    color: white;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-    transition: background-color 0.3s;
+    padding: 0.5rem; /* Espaçamento interno do botão */
+    background-color: #333; /* Cor de fundo do botão */
+    color: white; /* Cor do texto do botão */
+    border: none; /* Remove a borda do botão */
+    border-radius: 4px; /* Arredonda os cantos do botão */
+    cursor: pointer; /* Muda o cursor ao passar o mouse */
+    transition: background-color 0.3s; /* Transição suave para a cor de fundo */
 }
 
 form button:hover {
-    background-color: #555;
+    background-color: #555; /* Muda a cor de fundo ao passar o mouse */
 }
