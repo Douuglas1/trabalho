@@ -12,6 +12,8 @@ document.addEventListener("DOMContentLoaded", function() {
         if (name === "" || email === "" || message === "") { 
             alert("Por favor, preencha todos os campos."); 
             event.preventDefault(); // Evita o envio do formulário se houver campos vazios 
-        } 
+        } else {
+            alert("Enviado!"); // Exibe o alerta "Enviado!" se todos os campos estiverem preenchidos
+        }
     }); 
-}); 
+});
