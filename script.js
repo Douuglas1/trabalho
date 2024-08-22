@@ -24,14 +24,14 @@ document.addEventListener("DOMContentLoaded", function() {
             })
             .then(response => {
                 if (response.ok) {
-                    window.location.href = "pagina-de-contato.html"; // Redireciona se a resposta for bem-sucedida
+                    window.location.href = "pagina-de-contato.html";
                 } else {
-                    alert("Enviado!"); // Exibe um alerta se a resposta não for bem-sucedida
+                    alert("Enviado!");
                 }
             })
             .catch(error => {
-                console.error("Erro:", error); // Exibe o erro no console
-                alert("Enviado!"); // Exibe um alerta em caso de erro
+                console.error("Erro:", error);
+                alert("Enviado!");
             });
         }
     }); 
